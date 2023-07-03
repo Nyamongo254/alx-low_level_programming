@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * _strspn - Entry point
- * @s: A pointer to the string in which to search for the prefix substring.
- * @accept: A pointer to the string containing the bytes that are considered valid in the prefix substring.
+ * @s: pointer for the string in whch to search for prefix substring
+ * @accept: input
  * Return: Always 0 (Success)
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
