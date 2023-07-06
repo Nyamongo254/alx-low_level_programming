@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * factorial - returns the factorial of a given number
- * @n: the number to return the factorial from
- * return: the factorial of n
+ * factorial - returns the factorial of a number
+ * @n: number to return the factorial from
+ *
+ * Return: factorial of n
  */
-
-unsigned long long int factorial(unsigned int n)
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
