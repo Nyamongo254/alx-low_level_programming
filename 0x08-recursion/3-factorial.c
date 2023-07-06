@@ -6,7 +6,7 @@
  * return: the factorial of n
  */
 
-int factorial(int n)
+unsigned long long int factorial(unsigned int n)
 {
 	if (n < 0)
 		return (-1);
